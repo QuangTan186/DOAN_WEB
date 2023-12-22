@@ -1,0 +1,30 @@
+.listHeaderShop {
+    height: 55px;
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 40px;
+    // justify-content: center;
+    &:first-child {
+        // Styles for the first child element
+        padding-left: 300px;
+    }
+    .listItem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .itemDetail{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            .textItem {
+                color: white;
+            }
+        }
+    }
+}
